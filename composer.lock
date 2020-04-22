@@ -1,0 +1,45 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "96fc28651778433f39787d927c60a8fe",
+    "packages": [
+        {
+            "name": "orionic969/trpolib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orionic969/trpolib.git",
+                "reference": "master"
+            },
+            "type": "library",
+            "time": "2019-12-05T11:31:59+00:00"
+        },
+        {
+            "name": "rok9ru/trpo-core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rok9ru/trpo-core.git",
+                "reference": "master"
+            },
+            "type": "library",
+            "time": "2019-11-23T10:22:55+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "orionic969/trpolib": 20,
+        "rok9ru/trpo-core": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4.5"
+    },
+    "platform-dev": []
+}

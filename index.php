@@ -1,16 +1,12 @@
 <?php
 
+if (file_exists(__DIR__."/vendor/autoload.php")) {
+    require __DIR__."/vendor/autoload.php";
+}
+
 use KK\Log;
 use KK\QuadraticEq;
 use KK\KKException;
-
-include 'core/EquationInterface.php';
-include 'core/LogInterface.php';
-include 'core/LogAbstract.php';
-include 'KK/KKException.php';
-include 'KK/LinearEq.php';
-include 'KK/QuadraticEq.php';
-include 'KK/Log.php';
 
 $eq=new QuadraticEq();
 
